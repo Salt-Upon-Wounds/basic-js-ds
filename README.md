@@ -3,11 +3,11 @@
 ⚠️ DO NOT SUBMIT PULL REQUESTS TO THIS REPO ⚠️
 
 #### Prerequisites
-1. Install [Node.js](https://nodejs.org/en/download/)   
+1. Install [Node.js](https://nodejs.org/en/download/)
 2. Fork this repository: https://github.com/AlreadyBored/basic-js-ds
-3. Clone your newly created repo: https://github.com/<%your_github_username%>/basic-js-ds  
-4. Go to folder `basic-js-ds`  
-5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
+3. Clone your newly created repo: https://github.com/<%your_github_username%>/basic-js-ds
+4. Go to folder `basic-js-ds`
+5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)
 6. Run `npm run test` in command line.
 7. You will see the number of pending, passing and failing tests. 100% of passing tests is equal to max score for the task
 
@@ -39,7 +39,7 @@ Your task is to deal with some data structures to solve the subtasks. Subtasks d
 
 ### **Binary search tree**
 
-![Binary search tree](https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_tree.jpg)  
+![Binary search tree](https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_tree.jpg)
 A **binary tree** is a hierarchical **data structure** in which each **node** has a **value** (in this case, it is also a key) and **links** to the **left** and **right** **children**. The **node** that is at the topmost level (which is not someone else's child) is called the **root**. **Nodes** that have no children are called **leaves**.
 
 A **binary search tree** is a **binary tree** with additional properties: the value of the **left** child is **less** than the value of the parent, and the value of the **right** child is **greater** than the value of the parent for each tree **node**. That is, the data in the binary search tree is stored sorted. Each time you **add** a new or **remove** an existing node, the sorted order of the tree is preserved. When **searching** for an element, the search value is compared with the root. If the desired is **greater** than the root, then the search continues in the **right** child of the root, if **less**, then in the **left**, if **equal**, then the value is **found** and the search stops.
@@ -127,7 +127,7 @@ Write your code in `src/stack.js`.
 ### **Queue**
 Implement the **Queue** with a given interface via **linked list** (use `ListNode` extension).
 Each instance of queue must have 3 methods:
-    * `enqueue(value)` — puts the `value` at the end of the **queue** 
+    * `enqueue(value)` — puts the `value` at the end of the **queue**
     * `dequeue` — retrieves a value from the head of the **queue** and deletes it
     * `getUnderlyingList` - returns underlying **linked list**
 
@@ -147,7 +147,7 @@ Write your code in `src/queue.js`.
 
 ---
 
-© [AlreadyBored](https://github.com/alreadybored)  
+© [AlreadyBored](https://github.com/alreadybored)
 
 & tasks:
 * Remove from list
